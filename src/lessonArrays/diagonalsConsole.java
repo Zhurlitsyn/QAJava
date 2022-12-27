@@ -1,4 +1,4 @@
-package lesson4;
+package lessonArrays;
 
 import java.util.Scanner;
 
@@ -8,8 +8,8 @@ public class diagonalsConsole {
         System.out.println("Enter size of SQUARE array (M x N): ");
         int m = scan.nextInt();
         int[][] arr = new int[m][m];
-        arrayRandom.fillRandom(arr);
-        arrayRandom.print2DArray(arr);
+        ArrayRandom.fillRandom(arr);
+        ArrayRandom.print2DArray(arr);
 
         System.out.println("Elements of Main diagonal are: ");
         for (int i = 0; i < arr.length; i++)

@@ -1,4 +1,4 @@
-package lesson4;
+package lessonArrays;
 
 public class multiplyMatrix {
     public static void main(String[] args) {
@@ -15,7 +15,7 @@ public class multiplyMatrix {
             }
         }
 
-        arrayRandom.print2DArray(finalMatrix);
+        ArrayRandom.print2DArray(finalMatrix);
 
 
     }

@@ -1,4 +1,4 @@
-package lesson4;
+package lessonArrays;
 
 import java.util.Arrays;
 
@@ -6,8 +6,8 @@ public class lessonOne {
         public static void main(String[] args) {
             int arr [][] = new int[5][5];
             int [] arrSecond = new int[5];
-            arrayRandom.fillRandom(arr);
-            arrayRandom.print2DArray(arr);
+            ArrayRandom.fillRandom(arr);
+            ArrayRandom.print2DArray(arr);
 
             // sum main & side diagonals
             int sum = 0, sum2 = 0;

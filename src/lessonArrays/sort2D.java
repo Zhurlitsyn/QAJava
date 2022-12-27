@@ -1,4 +1,4 @@
-package lesson4;
+package lessonArrays;
 
 import java.util.Arrays;
 import java.util.Scanner;
@@ -10,13 +10,13 @@ public class sort2D {
         int m = scan.nextInt();
         int n = scan.nextInt();
         int [][] arr = new int[m][n];
-        arrayRandom.fillRandom(arr);
+        ArrayRandom.fillRandom(arr);
         System.out.println("Initial Array:");
-        arrayRandom.print2DArray(arr);
+        ArrayRandom.print2DArray(arr);
         for (int i = 0; i < arr.length; i++)
             Arrays.sort(arr[i]);
         System.out.println("Final Array:");
-        arrayRandom.print2DArray(arr);
+        ArrayRandom.print2DArray(arr);
 
 
     }

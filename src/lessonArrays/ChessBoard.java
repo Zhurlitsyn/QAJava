@@ -1,4 +1,4 @@
-package lesson4;
+package lessonArrays;
 
 public class ChessBoard {
 

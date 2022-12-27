@@ -1,4 +1,4 @@
-package lesson4;
+package lessonArrays;
 
 import java.util.Scanner;
 
@@ -9,9 +9,9 @@ public class sum2D {
         int m = scan.nextInt();
         int n = scan.nextInt();
         int [][] arr = new int[m][n];
-        arrayRandom.fillRandom(arr);
-        arrayRandom.print2DArray(arr);
-        System.out.println("Sum of elements of Array is : " + arrayRandom.sumArray2D(arr));
+        ArrayRandom.fillRandom(arr);
+        ArrayRandom.print2DArray(arr);
+        System.out.println("Sum of elements of Array is : " + ArrayRandom.sumArray2D(arr));
 
     }
 }
