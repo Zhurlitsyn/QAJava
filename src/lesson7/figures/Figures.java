@@ -1,6 +1,6 @@
 package lesson7.figures;
 
-public class Figures {
+public abstract class Figures {
     private double perimeter;
     private double square;
 
@@ -22,11 +22,10 @@ public class Figures {
     public void setSquare(double square) {
         this.square = square;
     }
-     public double perimeter()
-    { return perimeter;
-    }
-    public double square()
-    { return square;
-    }
+
+    public abstract double perimeter();
+
+    public abstract double square();
+
 
 }

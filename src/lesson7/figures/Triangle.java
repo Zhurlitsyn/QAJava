@@ -27,26 +27,6 @@ public class Triangle extends Figures {
         return square;
     }
 
-    @Override
-    public double getPerimeter() {
-        return super.getPerimeter();
-    }
-
-    @Override
-    public void setPerimeter(double perimeter) {
-        super.setPerimeter(perimeter);
-    }
-
-    @Override
-    public double getSquare() {
-        return super.getSquare();
-    }
-
-    @Override
-    public void setSquare(double square) {
-        super.setSquare(square);
-    }
-
     public int getSideOne() {
         return sideOne;
     }

@@ -13,19 +13,13 @@ public class Registr {
         registr.add(doc);
     }
 
-    public static void displayDocument(Class cl) {
-        for (int a = 0; a < 10; a++) {
-            if (registr.get(a).getClass().equals(cl))
-                System.out.println(registr.get(a));
-        }
-    }
-
     public static void displayDocument(int numDoc) {
         registr.get(numDoc).displayDoc();
-       // System.out.println(registr.get(numDoc));
+        // System.out.println(registr.get(numDoc));
     }
 
-    public static void findDoc(String numDoc) {
+    // переименовать и разобраться
+    public static void printDoc(String numDoc) {
         boolean flag = false;
         for (int a = 0; a < 10; a++) {
             if (registr.get(a).getNumOfDoc().equals(numDoc)) {

@@ -30,51 +30,9 @@ public class MainDocs {
         ContractEmployee worker3 = new ContractEmployee(LocalDate.of(2005, 2, 23), "FBR341GY", "Judd Tramp", LocalDate.of(2024, 5, 19));
         Registr.saveDoc(worker3);
 
-        menu();
 
-        /*System.out.println("Enter number of document ");
+        System.out.println("Enter number of document ");
         String numDoc = sc.next();
-        Registr.findDoc(numDoc);*/
-
-        /*System.out.println("Choice type of document ");
-        System.out.println(" 1. Goods contract | 2. Employee contract | 3. Financial Department");
-        int choice = sc.nextInt();
-        switch (choice) {
-            case 1:
-                Registr.displayDocument(ContractGoods.class);
-                break;
-
-            case 2:
-                Registr.displayDocument(ContractEmployee.class);
-                break;
-
-            case 3:
-                Registr.displayDocument(FinancialInvoice.class);
-                break;
-
-            default:
-                System.out.println("Wrong choice!");
-        }*/
-
-
-    }
-
-    public static void menu() {
-        Scanner sc = new Scanner(System.in);
-        System.out.println(" * * * * * DOCUMENTS * * * * * ");
-        System.out.println("Enter number of document in the List (1-10): ");
-        System.out.println("or enter 11 for exit");
-        int numList = sc.nextInt() - 1;
-        switch (numList){
-            case 0,1,2,3,4,5,6,7,8,9:
-                Registr.displayDocument(numList);
-                menu();
-                break;
-            case 10: System.exit(0);
-            default:
-                System.out.println("Wrong! Try again");
-                menu();
-
-        }
+        Registr.printDoc(numDoc);
     }
 }
