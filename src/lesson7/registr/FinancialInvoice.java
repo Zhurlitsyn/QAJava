@@ -44,7 +44,7 @@ public class FinancialInvoice extends Docs implements DisplayDoc {
 
     @Override
     public String toString() {
-        return "\n* * * Financial Invoice * * * \n" + " Date: " + getDate() + " Number: " + getNumOfDoc() +
-                "  Department code= " + codeDep + "  Profit= " + totalAmount;
+        return "* * * Financial Invoice * * * \n" + " Date: " + getDate() + " Number: " + getNumOfDoc() +
+                "  Department code= " + codeDep + "  Profit= " + totalAmount + "\n";
     }
 }

@@ -2,7 +2,7 @@ package lesson7.registr;
 
 import java.time.LocalDate;
 
-public class Docs {
+public class Docs implements DisplayDoc{
     private LocalDate date;
     private String numOfDoc;
 
@@ -28,6 +28,11 @@ public class Docs {
 
     public void setNumOfDoc(String numOfDoc) {
         this.numOfDoc = numOfDoc;
+    }
+
+    @Override
+    public void displayDoc() {
+
     }
 
     @Override

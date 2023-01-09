@@ -20,6 +20,23 @@ public class Registr {
         }
     }
 
+    public static void displayDocument(int numDoc) {
+        registr.get(numDoc).displayDoc();
+       // System.out.println(registr.get(numDoc));
+    }
+
+    public static void findDoc(String numDoc) {
+        boolean flag = false;
+        for (int a = 0; a < 10; a++) {
+            if (registr.get(a).getNumOfDoc().equals(numDoc)) {
+                //System.out.println(registr.get(a));
+                registr.get(a).displayDoc();
+                flag = true;
+            }
+        }
+        if (!flag) System.out.println("There is NO document with this number");
+    }
+
     public static ArrayList<Docs> getDocuments() {
         return registr;
     }

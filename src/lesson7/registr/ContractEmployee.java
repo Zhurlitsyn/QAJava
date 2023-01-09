@@ -28,7 +28,7 @@ public class ContractEmployee extends Docs implements DisplayDoc {
 
     @Override
     public String toString() {
-        return "\n* * * Employee * * * \n" + " Date: " + getDate() + " Number: " + getNumOfDoc() +
-                "  Name= " + name + "  Contract completion= " + endOfContract;
+        return "* * * Employee * * * \n" + " Date: " + getDate() + " Number: " + getNumOfDoc() +
+                "  Name= " + name + "  Contract completion= " + endOfContract + "\n";
     }
 }

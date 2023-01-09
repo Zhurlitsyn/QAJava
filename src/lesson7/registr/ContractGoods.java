@@ -24,9 +24,9 @@ public class ContractGoods extends Docs implements DisplayDoc {
 
     @Override
     public String toString() {
-        return "\n* * ContractGoods * * \n" + " date: " + getDate() + "   Number: " + getNumOfDoc() +
+        return "* * ContractGoods * * \n" + " date: " + getDate() + "   Number: " + getNumOfDoc() +
                 "   TypeOfGoods:  " + typeOfGoods +
-                " AmountGoods: " + amountGoods;
+                " AmountGoods: " + amountGoods + "\n";
     }
 
     @Override
