@@ -16,7 +16,6 @@ public class Accountant extends Employee implements DisplayPosition {
         this.position = position;
     }
 
-    @Override
     public void displayPosition() {
         System.out.println("Position of " + getName() + " " + getSurname() + " is " + (getPosition().toUpperCase()));
     }

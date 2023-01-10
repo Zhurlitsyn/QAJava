@@ -1,11 +1,10 @@
 package lesson7.registr;
 
 import java.time.LocalDate;
-import java.util.ArrayList;
 
 public class ContractEmployee extends Docs implements DisplayDoc {
-    private final String name;
-    private final LocalDate endOfContract;
+    private  String name;
+    private  LocalDate endOfContract;
 
     public ContractEmployee(String name, LocalDate endOfContract) {
         this.name = name;
