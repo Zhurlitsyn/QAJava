@@ -4,7 +4,7 @@ import java.util.Arrays;
 
 public class lessonOne {
         public static void main(String[] args) {
-            int arr [][] = new int[5][5];
+            int[][] arr = new int[5][5];
             int [] arrSecond = new int[5];
             ArrayRandom.fillRandom(arr);
             ArrayRandom.print2DArray(arr);
